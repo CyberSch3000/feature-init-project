@@ -1,11 +1,17 @@
 body {
-    background: #ffeebf
+    background: #7fffa1
+}
+
+div {
+    transition: margin-right, 1s;
+    border: 2px solid rgb(252, 255, 154);
+}
+
+div:hover {
+    margin-left: 400px;
+    background: #ffffff
 }
 
 p {
-    transition: margin-right, 1s
-}
-
-p:hover {
-    margin-left: 400px
+    margin-left: 20px
 }
